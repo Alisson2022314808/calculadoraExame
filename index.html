@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Nota para Exame - Cursos Superiores IFFar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="description" content="Calculadora de nota para exame de cursos superiores do IFFar. Calcula quanto o aluno precisa tirar na prova do exame para ser aprovado, a partir do valor da média informado.">
+    <meta name="keywords" content="calculadora de nota, calculadora de média, cursos superiores, PPC, projeto pedagógico de curso, projeto pedagogico de curso, bacharelado, bacharelado em administração, bacharelado em administracão, bacharelado em administraçao, bacharelado em administracao, bacharelado em agronomia, bacharelado em arquitetura e urbanismo, bacharelado em ciência da computação, bacharelado em ciencia da computação, bacharelado em ciência da computacão, bacharelado em ciência da computaçao, bacharelado em ciencia da computacão, bacharelado em ciencia da computaçao, bacharelado em ciência da computacao, bacharelado em ciencia da computacao, bacharelado em enfermagem, bacharelado em engenharia agrícola, bacharelado em engenharia agricola, bacharelado em engenharia de controle e automação, bacharelado em engenharia de controle e automacão, bacharelado em engenharia de controle e automaçao, bacharelado em engenharia de controle e automacao, bacharelado em medicina veterinária, bacharelado em medicina veterinaria, bacharelado em química industrial, bacharelado em quimica industrial, bacharelado em sistemas de informação, bacharelado em sistemas de informacão, bacharelado em sistemas de informaçao, bacharelado em sistemas de informacao, bacharelado em zootecnia, licenciatura, licenciatura em ciências biológicas, licenciatura em ciencias biológicas, licenciatura em ciências biologicas, licenciatura em ciencias biologicas, licenciatura em computação, licenciatura em computacão, licenciatura em computaçao, licenciatura em computacao, licenciatura em educação do campo, licenciatura em educacão do campo, licenciatura em educaçao do campo, licenciatura em educacao do campo, licenciatura em física, licenciatura em fisica, licenciatura em letras, licenciatura em letras - português e inglês, licenciatura em letras - portugues e inglês, licenciatura em letras - português e ingles, licenciatura em letras - portugues e ingles, licenciatura em matemática, licenciatura em matematica, licenciatura em pedagogia, licenciatura em química, licenciatura em quimica, tecnologia, tecnologia em agroindústria, tecnologia em agroindustria, tecnologia em alimentos, tecnologia em análise e desenvolvimento de sistemas, tecnologia em analise e desenvolvimento de sistemas, tecnologia em automação industrial, tecnologia em automacão industrial, tecnologia em automaçao industrial, tecnologia em automacao industrial, tecnologia em estética e cosmética, tecnologia em estetica e cosmética, tecnologia em estética e cosmetica, tecnologia em estetica e cosmetica, tecnologia em gastronomia, tecnologia em gestão de turismo, tecnologia em gestao de turismo, tecnologia em gestão do agronegócio, tecnologia em gestao do agronegócio, tecnologia em gestão do agronegocio, tecnologia em gestao do agronegocio, tecnologia em gestão pública, tecnologia em gestao pública, tecnologia em gestão publica, tecnologia em gestao publica, tecnologia em mecatrônica industrial, tecnologia em mecatronica industrial, tecnologia em processos químicos, tecnologia em processos quimicos, tecnologia em produção de grãos, tecnologia em producão de grãos, tecnologia em produçao de grãos, tecnologia em produção de graos, tecnologia em producao de grãos, tecnologia em producão de graos, tecnologia em produçao de graos, tecnologia em producao de graos, tecnologia em sistemas de informação, tecnologia em sistemas de informacão, tecnologia em sistemas de informaçao, tecnologia em sistemas de informacao, tecnologia em sistemas elétricos, tecnologia em sistemas eletricos, tecnologia em sistemas para internet, Instituto Federal Farroupilha, IF Farroupilha, HTML, HTML5, HTML 5, CSS, CSS3, CSS 3, Bootstrap, JavaScript, Uianes Luiz Rockenbach Biondo, Álisson Veiga dos Santos, GitHub®, GitHub">
+    <meta property="og:title" content="Calculadora de Nota para Exame - Cursos Superiores IFFar">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://calcnotasup.netlify.app">
+    <meta property="og:description" content="Calculadora de nota para exame de cursos superiores do IFFar. Descubra quanto precisa tirar no exame para ser aprovado!">
+    <meta property="og:site_name" content="Calculadora de Nota para Exame - IFFar">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:image" content="https://calcnotasup.netlify.app/favIcon.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="256">
+    <meta property="og:image:height" content="256">
+    <meta property="og:image:alt" content="Ícone da Calculadora de Nota para Exame">    
+    <meta name="author" content="Uianes Luiz Rockenbach Biondo - Professor de Computação; Álisson Veiga dos Santos - Licenciando em Computação">
+    <meta itemprop="name" content="Calculadora de Nota para Exame - Cursos Superiores IFFar">
+    <meta itemprop="url" content="https://calcnotasup.netlify.app">
+    <meta itemprop="description" content="Calculadora de nota para exame de cursos superiores do IFFar. Descubra quanto precisa tirar no exame para ser aprovado!">
+    <meta itemprop="image" content="https://calcnotasup.netlify.app/favIcon.png">
+    <meta itemprop="author" content="Uianes Luiz Rockenbach Biondo - Professor de Computação; Álisson Veiga dos Santos - Licenciando em Computação">
+    <link rel="shortcut icon" href="favIcon.png" type="image/x-icon">
+    <link rel="" href="https://calcnotas.netlify.app">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A300%2C300italic%2C400%2C400italic%2C700%2C700italic&display=swap" nonce="T0wVXHYOz2_DUATcPK-Swg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:300,400,500,700|Source+Code+Pro:400,700&display=swap" nonce="T0wVXHYOz2_DUATcPK-Swg">
+    <link rel="stylesheet" href="https://www.gstatic.com/_/atari/_/ss/k=atari.vw.4AldWIs29WU.L.W.O/am=AMAABA/d=1/rs=AGEqA5kg3HRIngY4J31Cj4Dqve6PZYpfrA" data-id="_cl" nonce="T0wVXHYOz2_DUATcPK-Swg">
+    <style>
+        body {
+            background-color: rgb(64, 127, 239);   
+        }
+        .centered {
+            margin: 0 auto !important;
+            float: none !important;
+        }
+        .vertical-center {
+            min-height: 100%;
+            min-height: 100vh;
+
+            display: flex;
+            align-items: center;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body dir="ltr" itemscope itemtype="http://schema.org/WebPage" id="yDmH0d" css="yDmH0d">
+    <nav class="navbar navbar-dark bg-dark p-2 shadow">
+        <span class="navbar-brand h1" title="Cabeçalho">Cálculo de nota para exame IFFar - Curso Superior</span>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://calcnotas.netlify.app" target="_blank" rel="noopener noreferrer" title="Ir para Calculadora de Nota para Exame - Cursos Técnicos IFFar" aria-label="Ir para Calculadora de Nota para Exame - Cursos Técnicos IFFar">Curso Técnico</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid" style="height: 100vh;">
+        <div class="row">
+            <div class="col-12 justify-content-center vertical-center">
+                <div class="jumbotron jumbotron-fluid p-3 rounded shadow-lg" style="background-color: #f0efef;">
+                    <h1 class="display-7">Notas</h1>
+                        Quanto preciso tirar no exame? <br>
+                        <b>Exame</b> = (5 - (Média na disciplina * 0.6)) / 0.4
+                        <br><br>
+                        Como fica minha nota final com o exame? <br>
+                        <b>Nota Final</b> = (Média na disciplina) * 0.6 + (Exame) * 0.4
+                    </p>
+                    <hr class="my-2">
+                    <form class="text-center">
+                        <div class="form-group">
+                            <label for="nota">Média na disciplina:</label>
+                            <input type="number" min="0" max="10" step="0.1" inputmode="decimal" class="form-control form-control-lg" id="nota" placeholder="Exemplo: 6.8" title="Insira o valor da média da discipina" aria-label="Insira o valor da média da disciplina" required enterkeyhint="go">
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-lg btn-primary" title="Calcular nota" aria-label="Clique no botão para calcular a nota">Calcular</button>
+                    </form>
+                    <br>
+                    <p id="resultado"></p>
+                </div>
+            </div>
+        </div>
+        <footer class="text-light bg-dark text-center py-2 px-3" style="font-size: larger;">
+            © 2025<span id="currentYear"></span>.
+            <span class="col-auto">Gerenciado via GitHub®
+                <a href="https://github.com/Alisson2022314808/calculadoraExame" target="_blank" rel="noopener noreferrer" title="Acesse o repositório na GitHub®">
+                    <span class="bi bi-box-arrow-up-right"></span>
+                </a>
+            </span><br>
+            Desenvolvido por <a href="mailto:alisson.2022314808@aluno.iffar.edu.br" title="Entre em contato">Álisson Veiga dos Santos</a> e <a href="mailto:uianes.biondo@iffarroupilha.edu.br" title="Entre em contato">Uianes Luiz Rockenbach Biondo</a>.
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/_/atari/_/js/k=atari.vw.pt_BR.xWPFkpOF8pY.O/am=AMAABA/d=1/rs=AGEqA5kTtLdcx7yqsFEUqhFNCOAUhpDsYA/m=view" id="base-js" nonce="KZdtUFbj-27SP0LYqjEJwQ"></script>
+    <script>
+        function currentYear() {
+            const year = new Date().getFullYear();
+            return year !== 2025 ? `-${year}` : ``;
+        }
+        
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            calcular();
+        });
+        function calcular() {
+            var nota = document.getElementById("nota").value
+            nota = nota.replace(',', '.')
+            nota = parseFloat(nota)
+            if(nota == 10) {
+                document.getElementById("resultado").innerHTML = `Você gabaritou na disciplina. Parabéns! <br> <b>Aprovado</b> por nota!`
+            } else if(nota > 7) {
+                document.getElementById("resultado").innerHTML = `Você não precisa realizar exame. <br> <b>Aprovado</b> por nota!`
+            } else if(nota > 5/3) {
+                var exame = (5 - ((nota.toFixed(1)) * .6)) / .4
+                document.getElementById("resultado").innerHTML = `Você precisa tirar, pelo menos, <b>${exame.toFixed(1)}</b> no exame para passar.`
+            } else if(nota == 5/3) {
+                document.getElementById("resultado").innerHTML = `Você precisa gabaritar, ou seja, tirar <b>10</b> no exame, para passar.`
+            } else {
+                document.getElementById("resultado").innerHTML = `Você precisará de uma nota maior que a nota máxima do exame para passar. <br> <b>Reprovado</b> por nota!`
+            }
+        }        
+    </script>
+</body>
+
+</html>  
