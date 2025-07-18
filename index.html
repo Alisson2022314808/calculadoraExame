@@ -122,6 +122,8 @@
                 document.getElementById("resultado").innerHTML = `Você gabaritou na disciplina. Parabéns! <br> <b>Aprovado</b> por nota!`
             } else if(nota > 7) {
                 document.getElementById("resultado").innerHTML = `Você não precisa realizar exame. <br> <b>Aprovado</b> por nota!`
+            } else if(nota == 7) {
+                document.getElementById("resultado").innerHTML = `Por pouco, hein? Você não precisa realizar exame. <br> <b>Aprovado</b> por nota.`
             } else if(nota > 5/3) {
                 var exame = (5 - ((nota.toFixed(1)) * .6)) / .4
                 document.getElementById("resultado").innerHTML = `Você precisa tirar, pelo menos, <b>${exame.toFixed(1)}</b> no exame para passar.`
