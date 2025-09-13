@@ -4,7 +4,7 @@ O sistema tem por objetivo auxiliar estudantes dos cursos superiores da rede do 
 ### **Motivo**
 Constatou-se que muitos colegas enfrentavam dificuldades em localizar e interpretar as normas de avaliação de aprendizagem, previstas nos [Projetos Pedagógicos de Curso (PPCs)](https://www.iffarroupilha.edu.br/projeto-pedag%C3%B3gico-de-curso).
 ### **Metodologia**
-Foi realizada uma pesquisa documental aprofundada, nas versões mais recentes desses documentos, buscando e comparando os critérios que compõem o cálculo da nota final do aluno.
+Foi realizada uma pesquisa documental aprofundada, nas versões mais recentes dos PPCs, buscando e comparando os critérios que compõem o cálculo da nota final do aluno.
 * Destaca-se, para fins de esclarecimento que, no PPC de cada curso, esses detalhes foram encontrados no capítulo "Organização Didático-Pedagógica", no item com título "Avaliação da Aprendizagem", títulos mantidos embora a numeração varie conforme o curso — o que evidencia, portanto, a especificidade necessária na busca pela mencionada seção.
 ### **Referência**
 A estrutura da aplicação foi inspirada na "[calculadora para cursos técnicos do IFFar](https://github.com/Uianes/calculadoraExame)", produzido integralmente pelo Uianes Luiz Rockenbach Biondo há algum tempo. Seu projeto está disponível para acesso em: [https://calcnotas.netlify.app](https://calcnotas.netlify.app)
